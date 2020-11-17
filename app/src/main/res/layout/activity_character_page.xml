@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".activities.CharacterPageActivity">
+
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" tools:srcCompat="@tools:sample/avatars"
+                android:id="@+id/char_image_cp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"/>
+
+        <TextView
+                android:text="@string/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_name_cp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp" android:textSize="30sp" android:textStyle="bold"/>
+        <TextView
+                android:text="@string/description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_des_cp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:textSize="24sp"/>
+        <TextView
+                android:text="@string/race"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_race_cp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="24dp"
+                android:textSize="24sp"/>
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/black"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginTop="8dp"/>
+        <TextView
+                android:text="@string/gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_gender_cp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="8dp"
+                android:textSize="24sp"/>
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/black"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginTop="8dp"/>
+        <TextView
+                android:text="@string/height"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_height_cp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="8dp"
+                android:textSize="24sp"/>
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/black"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginTop="8dp"/>
+        <TextView
+                android:text="@string/eye_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/tv_eye_cp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="8dp"
+                android:textSize="24sp"/>
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/black"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginTop="8dp"/>
+        <TextView
+                android:text="@string/hair_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/tv_hair_cp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="8dp"
+                android:textSize="24sp"/>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
+
