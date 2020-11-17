@@ -11,3 +11,6 @@ App is build with:
 3. MVVM architecture
 4. SharedPreference - storing recent search results
 5. Other Libraries - Lombok, gson, cardview
+
+
+Note - Directly install the app supremo.apk in your android device to see app in action.
